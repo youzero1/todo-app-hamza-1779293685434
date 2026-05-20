@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-primary-dark: #2563eb;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+input[type="checkbox"] {
+  @apply cursor-pointer;
+}
